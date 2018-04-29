@@ -3,6 +3,9 @@ import styled from 'styled-components'
 
 import Card from 'components/Card'
 
+import imageBgTile from 'files/bg-tile.jpg'
+import imageGuy from 'files/guy.png'
+
 const LINES = [
   <Fragment>My armor is real heavy, like my heart</Fragment>,
   <Fragment>
@@ -43,7 +46,7 @@ const Body = styled.div`
 
   display: flex;
   align-items: flex-end;
-  background-image: url('/static/bg-tile.jpg');
+  background-image: url('${imageBgTile}');
   background-position: top left;
   background-repeat: repeat;
 
@@ -54,7 +57,7 @@ const Body = styled.div`
 `
 
 const Guy = styled.div`
-  background-image: url('/static/guy.png');
+  background-image: url('${imageGuy}');
   width: 365px;
   height: 487px;
   margin-right: 30px;

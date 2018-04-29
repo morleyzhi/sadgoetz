@@ -13,7 +13,12 @@ const Layout = ({ children, data }) => (
         },
         { name: 'keywords', content: 'sample, something' },
       ]}
-    />
+    >
+      <link
+        href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC"
+        rel="stylesheet"
+      />
+    </Helmet>
     <div>{children()}</div>
   </div>
 )

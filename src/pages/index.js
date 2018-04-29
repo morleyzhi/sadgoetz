@@ -4,8 +4,6 @@ import { injectGlobal } from 'styled-components'
 import App from 'components/App'
 
 injectGlobal`
-  @import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC);
-
   html, body {
     margin: 0;
     padding: 0;

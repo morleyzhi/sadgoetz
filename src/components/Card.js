@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import imageMatte from 'files/matte-sm.png'
+
 const El = styled.button`
   border: 0;
   background: transparent;
@@ -17,7 +19,7 @@ const El = styled.button`
   padding: 20px 40px;
   margin-bottom: 200px;
 
-  background-image: url('/static/matte-sm.png');
+  background-image: url(${imageMatte});
   background-repeat: no-repeat;
 
   width: 542px;

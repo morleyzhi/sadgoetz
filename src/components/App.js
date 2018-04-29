@@ -14,7 +14,7 @@ const LINES = [
   <Fragment>I wish this lollipop hadn’t stuck to my beard</Fragment>,
   <Fragment>Everyone went off to the Crusade without me</Fragment>,
   <Fragment>All I want to do is lay in the bathtub and cry</Fragment>,
-  <Fragment>I dot’t know why the peasants are revolting</Fragment>,
+  <Fragment>I don’t know why the peasants are revolting</Fragment>,
   <Fragment>
     The ending of <em>Free Willy</em> made me sad
   </Fragment>,
